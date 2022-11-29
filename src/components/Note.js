@@ -57,10 +57,8 @@ function Note({
       onDragEnter={(e) => dragEnter(e, index)}
       onDragEnd={drop}
     >
-      <div>
         <h1 ref={titleRef}>{title}</h1>
         <p ref={contentRef}>{content}</p>
-      </div>
       <Button variant="contained" color="primary" ref={editRef} onClick={handleEdit}>
         Edit
       </Button>
