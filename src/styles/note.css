@@ -7,4 +7,10 @@
     max-width: 260px;
     min-height: 150px;
     flex-wrap: wrap;
+    
+}
+
+.note h1,
+.note p{
+    word-break: break-all;
 }
